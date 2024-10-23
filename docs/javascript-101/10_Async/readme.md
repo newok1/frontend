@@ -159,7 +159,7 @@ getBaycMetadata()
 
 基于这一讲的例子，写一个根据用户输入的 tokenId（1~10000）来获取相应的无聊猿的元数据。
 
-> 提示: 示例中url的最后一位的代表 tokenId，可以使用 `{$tokenId}` 进行替换。
+> 提示: 示例中url的最后一位的代表 tokenId，可以使用 `${tokenId}` 进行替换。
 
 ```jsx live
 function getBaycMetadataById(tokenId) {
